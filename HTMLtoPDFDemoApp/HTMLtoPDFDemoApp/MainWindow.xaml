@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Convert HTML to PDF" HorizontalAlignment="Left" Margin="232,120,0,0" VerticalAlignment="Top" Width="159" Height="56"/>
+        <Button Content="Convert HTML to PDF" HorizontalAlignment="Left" Margin="232,120,0,0" VerticalAlignment="Top" Width="159" Height="56" Click="Button_Click"/>
         <Label Content="Source:" HorizontalAlignment="Left" Margin="97,40,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="146,44,0,0" TextWrapping="Wrap" Text="C:\temp\input.html" VerticalAlignment="Top" Width="120"/>
         <Label Content="Output:" HorizontalAlignment="Left" Margin="97,68,0,0" VerticalAlignment="Top"/>
