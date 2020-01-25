@@ -42,5 +42,10 @@ namespace HTMLtoPDFDemoApp
 
             File.WriteAllBytes(txtOutput.Text, result);
         }
+
+        private void btnScanForViruses_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
